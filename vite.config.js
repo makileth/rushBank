@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/', // Use an absolute path or a URL path starting with '/'
   build: {
-    outDir: './build', 
+    outDir: 'dist', 
   },
 });
