@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'https://rush-bank.vercel.app/',
+  base: './',
   build: {
-    outDir: 'modern-app', 
+    outDir: './modern-app', 
   },
 });
