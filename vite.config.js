@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/', // Use an absolute path or a URL path starting with '/'
   build: {
-    outDir: './modern-app', 
+    outDir: './build', 
   },
 });
