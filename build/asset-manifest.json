@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4239d940.js",
+    "static/media/billingImg.svg": "/static/media/billingImg.e028ffa3b304140943da6348ecfac6b4.svg",
+    "static/media/cardDeal.svg": "/static/media/cardDeal.103d08f74d47e2386f82af3d780a8400.svg",
+    "static/media/logo.svg": "/static/media/logo.ca2dd30ad315ea4089a898fe9ccb40db.svg",
+    "index.html": "/index.html",
+    "main.4239d940.js.map": "/static/js/main.4239d940.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4239d940.js"
+  ]
+}
