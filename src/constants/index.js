@@ -68,7 +68,7 @@ export const Feedback = [
   },
   {
     id: 2,
-    content: "Impressive! I've found my perfect financial companion for my gaming endeavors. Their gaming-centric credit cards offer incredible rewards, and their focus on security gives me peace of mind.",
+    content: "Impressive! I've found my perfect financial companion for my gaming and professional endeavors. Their gaming-centric credit cards offer incredible rewards, and their focus on security gives me peace of mind.",
     name: "Alex Turner",
     title: "Dedicated Gamer",
     img: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=2000",
@@ -77,7 +77,7 @@ export const Feedback = [
     id: 3,
     content: "This bank truly understands gamers! Their services have revolutionized my gaming experience. Their balance transfer made managing my gaming expenses a breeze. I couldn't be happier!",
     name: "Sophia Martinez",
-    title: "Gaming Entrepreneur",
+    title: "Entrepreneur",
     img: "https://images.unsplash.com/photo-1580465446361-8aae5321522b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmljZSUyMHdvbWVufGVufDB8fDB8fHww&w=1000&q=80",
   },
 ];

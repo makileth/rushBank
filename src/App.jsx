@@ -11,7 +11,7 @@ import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 const App = () => {
   return (
-    <div className={`bg-neutral-900 ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-neutral-900 ${styles.paddingX} ${styles.flexStart} overflow-hidden`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
         <Hero />

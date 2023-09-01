@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="w-full h-16 bg-neutral-900 items-center navbar py-6 justify-center mx-auto max-w-7xl flex flex-row ">
       <div className="flex items-center justify-between object-contain rounded-full w-[10rem] cursor-pointer ">
-        <img src={logo} className="w-full h-full object-contain " alt="" />
+        <img src={logo} className="md:w-full md:h-full w-[8rem] h-[8rem] object-contain " alt="" />
       </div>
 
       <ul className="list-none sm:flex hidden flex-1 justify-center w-full ">
@@ -27,10 +27,10 @@ const Navbar = () => {
       </ul>
 
       <div className="flex justify-end items-center h-screen font-semibold font-poppins sm:flex-initial flex-1 ">
-        <button className="rounded-full bg-black text-white border border-white px-4 py-2 mr-2 text-[12px] hover:text-black hover:bg-white transition duration-500">
+        <button className="rounded-full bg-black text-white border border-white w-[5rem] py-2  mr-2 text-[12px] hover:text-black hover:bg-white transition duration-500">
           Log In
         </button>
-        <button className="rounded-full bg-purple-600 text-white px-4 py-2 text-[12px] hover:bg-purple-400 transition duration-500">
+        <button className="rounded-full bg-purple-600 text-white  w-[5rem] py-2 text-[12px] hover:bg-purple-400 transition duration-500">
           Sign Up
         </button>
       </div>

@@ -35,19 +35,19 @@ const Hero = () => {
             <button className="w-[19rem] h-[4rem] bg-purple-600 text-white font-poppins font-semibold rounded-full text-[13px]   hover:bg-purple-400 transition duration-500">
               Get Started!
             </button>
-            <button className="w-[16rem] h-[4rem] bg-white text-black font-poppins font-semibold rounded-full text-[13px] ss:ml-6 ml-0 justify-between items-center hover:bg-black hover:text-white transition-all duration-500">
+            <button className="md:w-[16rem] w-[19rem] h-[4rem] bg-white text-black font-poppins font-semibold rounded-full text-[13px] ss:ml-6 ml-0 justify-between items-center hover:bg-black hover:text-white transition-all duration-500">
               Watch Demo!
             </button>
          
         </h1>
 
         <div
-          className={` ${styles.flexStart} justify-between items-center bg-slate-100  rounded-2xl w-[26rem] h-[26rem] sm:w-[32rem] sm:h-[32rem]  sm:md:0 md:mt-0 mt-12`}
+          className={` ${styles.flexStart} justify-between items-center md:mt-0 mt-12`}
         >
           <img
             src="https://img.freepik.com/premium-photo/cyberpunk-gaming-controller-gamepad-joystick-illustration_691560-5738.jpg"
             alt=""
-            className="w-full h-full object-cover rounded-2xl"
+            className=" object-cover rounded-2xl md:w-[30rem] w-[21rem] md:h-[30rem]  h-[21rem]"
           />
         </div>
       </div>

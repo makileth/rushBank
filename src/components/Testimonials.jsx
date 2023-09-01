@@ -1,4 +1,4 @@
-import styles from "../styles";
+import styles, { layout } from "../styles";
 import { Feedback } from "../constants";
 import FeedbackCard from "./FeedbackCard";
 const Testimonials = () => (
@@ -9,8 +9,8 @@ const Testimonials = () => (
     {/* Bruhh */}
     <div className="w-full flex justify-between md:flex-row flex-col items-center md:mb-6 mb-10 md:mt-0 mt-12 relative z-[1]">
       <h2 className={`${styles.heading2} text-white`}>
-        What people are <br className="sm:block hidden" />
-        saying about us
+        What people say <br className="sm:block hidden" />
+        <p className={`${layout.headingGradient}`}>about us</p>
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} max-w-[480px] text-left`}>
