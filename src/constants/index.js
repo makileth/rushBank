@@ -48,7 +48,7 @@ export const features = [
     id: 2,
     title: "100% Secured",
     icon: "https://cdn-icons-png.flaticon.com/512/709/709701.png",
-    content: "Rest assured, your protection is our top priority!",
+    content: "Your protection is our top priority!",
   },
   {
     id: 3,

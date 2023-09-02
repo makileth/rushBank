@@ -7,8 +7,8 @@ import { features } from "../constants";
 const TestFeatureCard = ({ content, title, icon }) => {
   return (
     <div className="group flex">
-      <div className="relative flex w-[23rem] md:w-[33rem] h-[5rem] rounded-full my-[1rem] items-center justify-start center transition-all duration-500 ease-in-out transform group-hover:scale-110">
-        <div className={`${styles.flexCenter} w-[3rem] h-[3rem] bg-dimBlue rounded-full ml-[12px] `}>
+      <div className="relative flex w-[23rem] md:ml-[6rem] ml-0 md:w-[33rem] h-[5rem] rounded-full my-[1rem] items-center justify-start center transition-all duration-500 ease-in-out transform group-hover:scale-110">
+        <div className={`${styles.flexCenter} w-[3rem] h-[3rem] bg-dimBlue rounded-full sm:ml-[12px] ml-0 `}>
           <img
             src={icon}
             alt="icon"
@@ -56,7 +56,7 @@ const Business = () => {
         </p>
         <div className="absolute z-[0] w-[40%] h-[40%] blur-[10rem] rounded-full bg-gradient-to-r from-slate-500 via-blue-500 to-pink-500 opacity-30 mr-[10rem]"></div>
       </div>
-      <div className={`${layout.sectionImg} flex-col `}>
+      <div className={`flex flex-col ${styles.flexStart} mr-4 md:mt-0 mt-16`}>
         {features.map((feature) => (
           <TestFeatureCard key={feature.id} {...feature} />
         ))}

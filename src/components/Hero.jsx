@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from "../styles";
 
 const Hero = () => {
@@ -42,11 +42,11 @@ const Hero = () => {
         </h1>
 
         <div
-          className={` ${styles.flexStart} justify-between items-center md:mt-0 mt-12`}
+          className={` ${styles.flexStart} md:block hidden justify-between items-center md:mt-0 mt-12`}
         >
           <img
             src="https://img.freepik.com/premium-photo/cyberpunk-gaming-controller-gamepad-joystick-illustration_691560-5738.jpg"
-            alt=""
+            alt="img-game-controller"
             className=" object-cover rounded-2xl md:w-[30rem] w-[21rem] md:h-[30rem]  h-[21rem]"
           />
         </div>
